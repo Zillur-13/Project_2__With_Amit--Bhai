@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table,th,td{
+    border: 1px solid gray;
+}
+
+ th,td{
+    padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(222, 224, 224);
+}
+th {
+    background-color: #f8f8f8;
+    color: #333;
+    text-align: center;
+}
+tr:hover {
+    background-color: rgb(194, 213, 230);
+}
